@@ -1,0 +1,20 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "styles.scss",
+        "partials/_mixins.scss",
+        "partials/_reset.scss",
+        "partials/_variables.scss",
+        "partials/_grid.scss",
+        "partials/_animate.scss",
+        "partials/_titles.scss",
+        "partials/_components.scss",
+        "partials/_buttons.scss",
+        "partials/_header.scss",
+        "partials/_footer.scss",
+        "partials/_home.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}
