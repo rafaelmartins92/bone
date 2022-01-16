@@ -34,4 +34,123 @@ body {
   padding: 0 1.6rem;
   margin: 0 auto;
 }
+
+h1 {
+  font-weight: 600;
+  font-size: 6.4rem;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+  line-height: 150%;
+}
+
+h4 {
+  font-size: 2rem;
+  line-height: 112%;
+}
+
+h1, h2 {
+  line-height: 112%;
+  letter-spacing: -0.1rem;
+}
+
+h3, h4 {
+  font-weight: 500;
+  letter-spacing: -0.05rem;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Poppins", sans-serif;
+  color: #4e4b59;
+}
+
+.card-depoimento {
+  width: 100%;
+  max-width: 38.4rem;
+  background: rgba(241, 240, 245, 0.55);
+  border-radius: 8px;
+  padding: 3.7rem 3.2rem 2.3rem;
+}
+
+.card-depoimento .user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2.1rem;
+}
+
+.card-depoimento .user strong {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 112%;
+  letter-spacing: -0.1rem;
+  color: #4e4b59;
+}
+
+.card-depoimento p {
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: #5f5c6b;
+}
+
+.btn-primary {
+  background-color: #ffc800;
+  color: #855b35;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #ffdc5c;
+}
+
+.btn-secondary {
+  border: 1px solid #00a5f0;
+  color: #00a5f0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn-secondary:hover {
+  background-color: #00a5f0;
+  color: #ffffff;
+}
+
+.btn-secondary.white {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.btn-secondary.white:hover {
+  background-color: #ffffff;
+  color: #00d7d7;
+}
+
+.btn-primary,
+.btn-secondary {
+  display: inline-block;
+  line-height: 4.8rem;
+  border-radius: 122px;
+  padding: 0 2.6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
 /*# sourceMappingURL=styles.css.map */
