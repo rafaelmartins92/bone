@@ -353,4 +353,256 @@ header nav ul li a:hover {
   top: 2.8rem;
   right: 4.3rem;
 }
+
+.s-card-neon {
+  padding-top: 12.9rem;
+}
+
+.s-card-neon .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.s-card-neon .left-area {
+  width: 100%;
+  max-width: 27.7rem;
+}
+
+.s-card-neon .left-area .ilustra-mockup {
+  position: relative;
+  width: 100%;
+  max-width: 27.7rem;
+  margin-bottom: 12.9rem;
+}
+
+.s-card-neon .left-area .ilustra-mockup .circle {
+  position: absolute;
+  z-index: -1;
+  top: 8.7rem;
+  right: 11.4rem;
+  max-width: 377px;
+}
+
+.s-card-neon .left-area .text {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.s-card-neon .left-area .text .icon {
+  position: relative;
+}
+
+.s-card-neon .left-area .text .icon:before {
+  content: "";
+  width: 5px;
+  height: 83px;
+  position: absolute;
+  top: -104px;
+  left: 50%;
+  margin-left: -2.5px;
+  background: url(../../img/points.svg) no-repeat center center;
+}
+
+.s-card-neon .left-area .text .info-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.s-card-neon .left-area .text .info-text h3 {
+  text-align: center;
+  margin-top: 3.6rem;
+}
+
+.s-card-neon .left-area .text .info-text p {
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: #5f5c6b;
+  opacity: 0.8;
+  margin-bottom: 2.6rem;
+}
+
+.s-card-neon .left-area .text .info-text ul li:not(:last-child) {
+  margin-bottom: 1.3rem;
+}
+
+.s-card-neon .right-area {
+  width: 100%;
+  max-width: 80rem;
+}
+
+.s-card-neon .right-area .main-text {
+  margin-bottom: 14.4rem;
+}
+
+.s-card-neon .right-area .main-text h2 {
+  max-width: 48.8rem;
+  color: #33303e;
+  margin-bottom: 4.9rem;
+}
+
+.s-card-neon .right-area .main-text ul {
+  margin-bottom: 3.2rem;
+}
+
+.s-card-neon .right-area .main-text ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid rgba(225, 224, 231, 0.9);
+  padding: 3.3rem 0;
+}
+
+.s-card-neon .right-area .main-text ul li:first-child {
+  padding-top: 0;
+}
+
+.s-card-neon .right-area .main-text ul li .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s-card-neon .right-area .main-text ul li .info .txt {
+  margin-left: 4.3rem;
+}
+
+.s-card-neon .right-area .main-text ul li .info .txt h3 {
+  color: #5f5c6b;
+}
+
+.s-card-neon .right-area .main-text ul li .info .txt p {
+  font-size: 18px;
+  line-height: 150%;
+  color: #7a7786;
+}
+
+.s-card-neon .right-area .main-text .btn {
+  position: relative;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 112%;
+  letter-spacing: -0.05rem;
+  color: #0073ce;
+}
+
+.s-card-neon .right-area .main-text .btn::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: -1.8rem;
+  width: 10px;
+  height: 3px;
+  background-color: #ffc800;
+}
+
+.s-card-neon .right-area .box-card {
+  width: 100%;
+  height: 41rem;
+  background: url(../../img/bg-box-card-neon.svg) no-repeat center center;
+  border: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 5.9rem;
+}
+
+.s-card-neon .right-area .box-card .text {
+  width: 100%;
+  max-width: 38rem;
+}
+
+.s-card-neon .right-area .box-card .text h2 {
+  color: #ffffff;
+  margin-bottom: 1.1rem;
+}
+
+.s-card-neon .right-area .box-card .text h3 {
+  color: #ffffff;
+  max-width: 32.7rem;
+  margin-bottom: 0.8rem;
+}
+
+.s-card-neon .right-area .box-card .text p {
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: #ffffff;
+  margin-bottom: 3.1rem;
+}
+
+.s-card-neon .right-area .box-card .text .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s-card-neon .right-area .box-card .text .btns button:not(:first-child) {
+  margin-left: 1.6rem;
+}
+
+.s-card-neon .right-area .box-card .image {
+  margin-right: -3.1rem;
+}
 /*# sourceMappingURL=styles.css.map */
