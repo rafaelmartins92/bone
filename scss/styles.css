@@ -70,7 +70,7 @@ h1, h2, h3, h4 {
   color: #4e4b59;
 }
 
-.card-depoimento {
+.card-testimonial {
   width: 100%;
   max-width: 38.4rem;
   background: rgba(241, 240, 245, 0.55);
@@ -78,7 +78,7 @@ h1, h2, h3, h4 {
   padding: 3.7rem 3.2rem 2.3rem;
 }
 
-.card-depoimento .user {
+.card-testimonial .user {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -95,7 +95,7 @@ h1, h2, h3, h4 {
   margin-bottom: 2.1rem;
 }
 
-.card-depoimento .user strong {
+.card-testimonial .user strong {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 1.8rem;
@@ -104,7 +104,7 @@ h1, h2, h3, h4 {
   color: #4e4b59;
 }
 
-.card-depoimento p {
+.card-testimonial p {
   font-size: 1.8rem;
   line-height: 150%;
   color: #5f5c6b;
@@ -604,5 +604,61 @@ header nav ul li a:hover {
 
 .s-card-neon .right-area .box-card .image {
   margin-right: -3.1rem;
+}
+
+.s-testimonials {
+  padding-top: 13.4rem;
+}
+
+.s-testimonials .container .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.s-testimonials .container .top h2 span {
+  display: block;
+  color: #c6c5ce;
+  margin-bottom: 1.4rem;
+}
+
+.s-testimonials .container .top .swiper-pagination {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+}
+
+.s-testimonials .container .top .swiper-pagination .swiper-pagination-bullet {
+  background: #ffc800;
+  opacity: 0.3;
+  border-radius: 12px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.s-testimonials .container .top .swiper-pagination .swiper-pagination-bullet-active {
+  opacity: 1;
+  width: 1.723rem;
+}
+
+.s-testimonials .container .top .swiper-pagination .swiper-pagination-bullet:not(:first-child) {
+  margin-left: 0.4rem;
+}
+
+.s-testimonials .container .slider-testimonials {
+  overflow: hidden;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -287,3 +287,49 @@
     }
   }
 }
+
+.s-testimonials {
+  padding-top: 13.4rem;
+
+  .container {
+    .top {
+      @include flex(row, flex-end, space-between);
+      margin-bottom: 4rem;
+
+      h2 {
+        span {
+          display: block;
+          color: $gray-200;
+          margin-bottom: 1.4rem;
+        }
+      }
+
+      .swiper-pagination {
+        position: relative;
+        display: flex;
+        width: auto;
+
+        .swiper-pagination-bullet {
+          background: $brand-yellow;
+          opacity: 0.3;
+          border-radius: 12px;
+
+          transition: 0.3s;
+
+          &-active {
+            opacity: 1;
+            width: 1.723rem;
+          }
+
+          &:not(:first-child) {
+            margin-left: 0.4rem;
+          }
+        }
+      }
+    }
+
+    .slider-testimonials {
+      overflow: hidden;
+    }
+  }
+}
