@@ -627,6 +627,10 @@ header nav ul li a:hover {
   margin-bottom: 4rem;
 }
 
+.s-testimonials .container .top h2 {
+  color: #33303e;
+}
+
 .s-testimonials .container .top h2 span {
   display: block;
   color: #c6c5ce;
@@ -660,5 +664,110 @@ header nav ul li a:hover {
 
 .s-testimonials .container .slider-testimonials {
   overflow: hidden;
+}
+
+.s-digital-account {
+  padding: 12.7rem 0 8.5rem;
+}
+
+.s-digital-account .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s-digital-account .container .text {
+  max-width: 54.2rem;
+}
+
+.s-digital-account .container .text h2 {
+  color: #33303e;
+  margin-bottom: 4.5rem;
+}
+
+.s-digital-account .container .text h2 span {
+  display: block;
+  color: rgba(198, 197, 206, 0.8);
+  margin-bottom: 0.9rem;
+}
+
+.s-digital-account .container .text ul {
+  margin-bottom: 6.1rem;
+}
+
+.s-digital-account .container .text ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s-digital-account .container .text ul li:not(:last-child) {
+  margin-bottom: 4.5rem;
+}
+
+.s-digital-account .container .text ul li .icon {
+  width: 4.5rem;
+  height: 4.5rem;
+  background: #00d7d7;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 2.6rem;
+}
+
+.s-digital-account .container .text ul li .info h4 {
+  margin-bottom: 0.4rem;
+  color: #5f5c6b;
+}
+
+.s-digital-account .container .text ul li .info p {
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: #7a7786;
+}
+
+.s-digital-account .container .image {
+  position: relative;
+  width: 100%;
+  max-width: 71.2rem;
+  height: 59.8rem;
+  margin-right: -3.8rem;
+  left: 12.5rem;
+}
+
+.s-digital-account .container .image img {
+  position: absolute;
+}
+
+.s-digital-account .container .image img.mockup-01 {
+  top: 7.8rem;
+  left: 0;
+}
+
+.s-digital-account .container .image img.mockup-02 {
+  top: 0;
+  left: 25.4rem;
+}
+
+.s-digital-account .container .image img.circle {
+  bottom: 0;
+  right: 0;
 }
 /*# sourceMappingURL=styles.css.map */

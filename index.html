@@ -296,19 +296,57 @@
                 </p>
               </div>
             </div>
-            <div class="swiper-slide">
-              <div class="card-testimonial">
-                <div class="user">
-                  <strong>@kleriene18</strong>
-                  <img src="img/icon-twiiter.svg" alt="Ícone do Twitter" />
-                </div>
-                <p>
-                  Eu uso o Neon pra render o pouquinho que eu tenho. Como disse
-                  minha amiga Bruna, um dia eu abro o app de novo e PA: tô rica.
-                </p>
-              </div>
-            </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIGITAL ACCOUNT -->
+    <section class="s-digital-account">
+      <div class="container">
+        <div class="text">
+          <h2>
+            <span>Aproveite</span> Domine o seu dinheiro com uma conta 100%
+            digital
+          </h2>
+          <ul>
+            <li>
+              <div class="icon">
+                <img
+                  src="img/icon-cartao-internacional.svg"
+                  alt="Ícone de cartão"
+                />
+              </div>
+              <div class="info">
+                <h4>Cartão visa internacional</h4>
+                <p>Tenha facilidades e benefícios para o seu dia a dia.</p>
+              </div>
+            </li>
+            <li>
+              <div class="icon">
+                <img src="img/icon-taxa-zero.svg" alt="Ícone de taxa zero" />
+              </div>
+              <div class="info">
+                <h4>Zero mensalidade e anuidade</h4>
+                <p>Não gaste grana pagando taxas desnecessárias.</p>
+              </div>
+            </li>
+            <li>
+              <div class="icon">
+                <img src="img/icon-poupanca.svg" alt="Símbolo de cifrão" />
+              </div>
+              <div class="info">
+                <h4>Investimento que rende mais que a poupança</h4>
+                <p>Invista o seu dinheiro de maneira mais rentável.</p>
+              </div>
+            </li>
+          </ul>
+          <button class="btn-primary">Abra sua conta digital</button>
+        </div>
+        <div class="image">
+          <img src="img/mockup-01.svg" alt="" class="mockup-01" />
+          <img src="img/mockup-02.svg" alt="" class="mockup-02" />
+          <img src="img/circle-conta-digital.svg" alt="" class="circle" />
         </div>
       </div>
     </section>
@@ -321,6 +359,7 @@
       var swiper = new Swiper(".slider-testimonials", {
         slidesPerView: 3,
         spaceBetween: 32,
+        loop: true,
         pagination: {
           el: ".s-testimonials .top .swiper-pagination",
           clickable: true,
