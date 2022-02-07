@@ -23,6 +23,18 @@ html {
   font-size: 62.5%;
 }
 
+@media (max-width: 1300px) {
+  html {
+    font-size: 58%;
+  }
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
 html,
 body {
   overflow-x: hidden;
@@ -40,6 +52,18 @@ h1 {
   font-size: 6.4rem;
 }
 
+@media (max-width: 1050px) {
+  h1 {
+    font-size: 5.2rem;
+  }
+}
+
+@media (max-width: 991px) {
+  h1 {
+    font-size: 4.8rem;
+  }
+}
+
 h2 {
   font-weight: bold;
   font-size: 4rem;
@@ -55,17 +79,22 @@ h4 {
   line-height: 112%;
 }
 
-h1, h2 {
+h1,
+h2 {
   line-height: 112%;
   letter-spacing: -0.1rem;
 }
 
-h3, h4 {
+h3,
+h4 {
   font-weight: 500;
   letter-spacing: -0.05rem;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: "Poppins", sans-serif;
   color: #4e4b59;
 }
@@ -553,17 +582,189 @@ footer .container .mensagem p {
   top: 4.1rem;
   left: 0;
   z-index: 2;
+  max-width: 43.5rem;
 }
 
 .s-hero .area-image .image .card-back {
   bottom: 4.6rem;
   right: 8.6rem;
   z-index: 1;
+  max-width: 35.2rem;
 }
 
 .s-hero .area-image .image .circle {
   top: 2.8rem;
   right: 4.3rem;
+}
+
+@media (max-width: 1440px) {
+  .s-hero .area-image {
+    margin-right: -13.4rem;
+  }
+}
+
+@media (max-width: 1366px) {
+  .s-hero .area-image {
+    margin-right: -8rem;
+  }
+  .s-hero .area-image .image .card-back {
+    right: 4rem;
+  }
+}
+
+@media (max-width: 1050px) {
+  .s-hero {
+    padding-top: 14.5rem;
+    height: 65.6rem;
+  }
+  .s-hero .text ul {
+    margin-top: 4.5rem;
+  }
+  .s-hero .area-image {
+    margin-right: -10px;
+  }
+  .s-hero .area-image h2 {
+    margin-bottom: 1.5rem;
+  }
+  .s-hero .area-image .image {
+    height: 45rem;
+  }
+  .s-hero .area-image .image .card-front {
+    max-width: 35rem;
+    top: 8rem;
+  }
+  .s-hero .area-image .image .card-back {
+    max-width: 29rem;
+    bottom: 0;
+  }
+  .s-hero .area-image .image .circle {
+    max-width: 46rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .s-hero {
+    height: 89.1rem;
+    background-size: cover;
+  }
+  .s-hero .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .s-hero .text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 5rem;
+    max-width: 68.5rem;
+  }
+  .s-hero .text h3 {
+    text-align: center;
+  }
+  .s-hero .text h1 {
+    text-align: center;
+    margin-bottom: 2.6rem;
+  }
+  .s-hero .text ul {
+    margin-top: 3.9rem;
+  }
+  .s-hero .area-image h2 {
+    margin-bottom: 1.9rem;
+  }
+  .s-hero .area-image .image {
+    max-width: 51.1rem;
+    margin: 0 auto;
+    height: 42.4rem;
+    top: 0;
+  }
+  .s-hero .area-image .image .circle {
+    max-width: 42.9rem;
+    top: 0;
+    right: 1.3rem;
+  }
+  .s-hero .area-image .image .card-front {
+    max-width: 34rem;
+    top: 3.5rem;
+    left: 0;
+  }
+  .s-hero .area-image .image .card-back {
+    max-width: 27.4rem;
+    bottom: 3.6rem;
+    right: 2.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .s-hero {
+    padding-top: 12.4rem;
+    height: 73.9rem;
+  }
+  .s-hero .text h3 {
+    font-size: 1.6rem;
+    line-height: 120%;
+    margin-bottom: 1.5rem;
+  }
+  .s-hero .text h1 {
+    font-size: 3.2rem;
+    line-height: 112%;
+    margin-bottom: 3.7rem;
+  }
+  .s-hero .text ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    max-width: 27.5rem;
+  }
+  .s-hero .text ul li:not(:last-child) {
+    margin-bottom: 1.7rem;
+  }
+  .s-hero .text ul li .icon {
+    width: 2rem;
+    height: auto;
+    background-color: transparent;
+  }
+  .s-hero .text ul li span br {
+    display: none;
+  }
+  .s-hero .area-image h2 {
+    display: none;
+  }
+  .s-hero .area-image .image {
+    max-width: 30.5rem;
+    height: 24.8rem;
+  }
+  .s-hero .area-image .image .circle {
+    max-width: 26.7rem;
+    right: 0;
+  }
+  .s-hero .area-image .image .card-front {
+    max-width: 21.1rem;
+    top: 2.9rem;
+  }
+  .s-hero .area-image .image .card-back {
+    max-width: 17rem;
+    bottom: 0;
+    right: 0.6rem;
+  }
 }
 
 .s-card-neon {
