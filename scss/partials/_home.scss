@@ -7,6 +7,7 @@
   .container {
     @include flex(row, flex-start, space-between);
   }
+
   .text {
     width: 100%;
     max-width: 68.4rem;
@@ -695,47 +696,85 @@
 .s-testimonials {
   padding-top: 13.4rem;
 
-  .container {
-    .top {
-      @include flex(row, flex-end, space-between);
-      margin-bottom: 4rem;
+  .top {
+    @include flex(row, flex-end, space-between);
+    margin-bottom: 4rem;
 
-      h2 {
-        color: $gray-600;
+    h2 {
+      color: $gray-600;
 
-        span {
-          display: block;
-          color: $gray-200;
-          margin-bottom: 1.4rem;
+      span {
+        display: block;
+        color: $gray-200;
+        margin-bottom: 1.4rem;
+      }
+    }
+
+    .swiper-pagination {
+      position: relative;
+      display: flex;
+      width: auto;
+
+      .swiper-pagination-bullet {
+        background: $brand-yellow;
+        opacity: 0.3;
+        border-radius: 12px;
+
+        transition: 0.3s;
+
+        &-active {
+          opacity: 1;
+          width: 1.723rem;
+        }
+
+        &:not(:first-child) {
+          margin-left: 0.4rem;
         }
       }
+    }
+  }
 
-      .swiper-pagination {
-        position: relative;
-        display: flex;
-        width: auto;
+  .slider-testimonials {
+    overflow: hidden;
+  }
 
-        .swiper-pagination-bullet {
-          background: $brand-yellow;
-          opacity: 0.3;
-          border-radius: 12px;
+  @include responsive(991px) {
+    .top {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 5.1rem;
 
-          transition: 0.3s;
+      h2 {
+        text-align: center;
+        margin-bottom: 5.1rem;
+      }
+    }
+  }
 
-          &-active {
-            opacity: 1;
-            width: 1.723rem;
-          }
+  @include responsive(480px) {
+    padding-top: 7.6rem;
 
-          &:not(:first-child) {
-            margin-left: 0.4rem;
-          }
+    .container {
+      padding: 0;
+    }
+
+    .top {
+      margin-top: 3.4rem;
+
+      h2 {
+        font-size: 2.8rem;
+        font-weight: 600;
+        max-width: 28.5rem;
+        margin-bottom: 3.4rem;
+
+        span {
+          margin-bottom: 1.1rem;
         }
       }
     }
 
     .slider-testimonials {
-      overflow: hidden;
+      padding: 0 2rem;
     }
   }
 }

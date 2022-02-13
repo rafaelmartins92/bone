@@ -102,6 +102,7 @@ h4 {
 .card-testimonial {
   width: 100%;
   max-width: 38.4rem;
+  height: 21.6rem;
   background: rgba(241, 240, 245, 0.55);
   border-radius: 8px;
   padding: 3.7rem 3.2rem 2.3rem;
@@ -137,6 +138,18 @@ h4 {
   font-size: 1.8rem;
   line-height: 150%;
   color: #5f5c6b;
+}
+
+@media (max-width: 991px) {
+  .card-testimonial {
+    height: 25.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-testimonial {
+    height: 29.6rem;
+  }
 }
 
 .btn-primary {
@@ -1208,7 +1221,7 @@ footer .container .mensagem p {
   padding-top: 13.4rem;
 }
 
-.s-testimonials .container .top {
+.s-testimonials .top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1225,17 +1238,17 @@ footer .container .mensagem p {
   margin-bottom: 4rem;
 }
 
-.s-testimonials .container .top h2 {
+.s-testimonials .top h2 {
   color: #33303e;
 }
 
-.s-testimonials .container .top h2 span {
+.s-testimonials .top h2 span {
   display: block;
   color: #c6c5ce;
   margin-bottom: 1.4rem;
 }
 
-.s-testimonials .container .top .swiper-pagination {
+.s-testimonials .top .swiper-pagination {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1243,7 +1256,7 @@ footer .container .mensagem p {
   width: auto;
 }
 
-.s-testimonials .container .top .swiper-pagination .swiper-pagination-bullet {
+.s-testimonials .top .swiper-pagination .swiper-pagination-bullet {
   background: #ffc800;
   opacity: 0.3;
   border-radius: 12px;
@@ -1251,17 +1264,58 @@ footer .container .mensagem p {
   transition: 0.3s;
 }
 
-.s-testimonials .container .top .swiper-pagination .swiper-pagination-bullet-active {
+.s-testimonials .top .swiper-pagination .swiper-pagination-bullet-active {
   opacity: 1;
   width: 1.723rem;
 }
 
-.s-testimonials .container .top .swiper-pagination .swiper-pagination-bullet:not(:first-child) {
+.s-testimonials .top .swiper-pagination .swiper-pagination-bullet:not(:first-child) {
   margin-left: 0.4rem;
 }
 
-.s-testimonials .container .slider-testimonials {
+.s-testimonials .slider-testimonials {
   overflow: hidden;
+}
+
+@media (max-width: 991px) {
+  .s-testimonials .top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 5.1rem;
+  }
+  .s-testimonials .top h2 {
+    text-align: center;
+    margin-bottom: 5.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .s-testimonials {
+    padding-top: 7.6rem;
+  }
+  .s-testimonials .container {
+    padding: 0;
+  }
+  .s-testimonials .top {
+    margin-top: 3.4rem;
+  }
+  .s-testimonials .top h2 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    max-width: 28.5rem;
+    margin-bottom: 3.4rem;
+  }
+  .s-testimonials .top h2 span {
+    margin-bottom: 1.1rem;
+  }
+  .s-testimonials .slider-testimonials {
+    padding: 0 2rem;
+  }
 }
 
 .s-digital-account {
