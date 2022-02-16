@@ -15,6 +15,7 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.svg" />
     <title>Rafael Martins | Neon</title>
   </head>
@@ -48,7 +49,7 @@
     <!-- SECTION HERO -->
     <section class="s-hero">
       <div class="container">
-        <div class="text">
+        <div class="text" data-aos="fade-right">
           <h3>Abra sua conta, é só baixar o app!</h3>
           <h1>A conta digital certa pra cuidar bem do seu dinheiro</h1>
           <button class="btn-primary">Abra sua conta digital</button>
@@ -89,8 +90,8 @@
           </ul>
         </div>
         <div class="area-image">
-          <h2>Banco 100% digital</h2>
-          <div class="image">
+          <h2 data-aos="fade-left">Banco 100% digital</h2>
+          <div class="image" data-aos="zoom-in">
             <img
               src="img/card-neon-front.png"
               alt="Imagem da frente do cartão do banco Neon"
@@ -120,14 +121,16 @@
               src="img/circle-mockup.svg"
               alt="Imagem de um círculo azul no fundo"
               class="circle"
+              data-aos="fade-left"
             />
             <img
               src="img/mockup.svg"
               alt="Imagem de um celular com as abas do aplicativo"
               class="mockup"
+              data-aos="flip-right"
             />
           </div>
-          <div class="text">
+          <div class="text" data-aos="fade-up">
             <div class="icon">
               <img
                 src="img/icon-neon.svg"
@@ -163,7 +166,7 @@
           </div>
         </div>
         <div class="right-area">
-          <div class="main-text">
+          <div class="main-text" data-aos="fade-left">
             <h2>Resolva sua vida direto pelo app Neon!</h2>
             <ul>
               <li>
@@ -219,7 +222,7 @@
             </ul>
             <a href="" class="btn">Conheça outros produtos</a>
           </div>
-          <div class="box-card">
+          <div class="box-card" data-aos="fade-left">
             <div class="text">
               <h2>Neon Pejota</h2>
               <h3>Contas digitais PJ gratuitas para decolar seu negócio!</h3>
@@ -245,7 +248,7 @@
     <!-- SECTION TESTIMONIALS -->
     <section class="s-testimonials">
       <div class="container">
-        <div class="top">
+        <div class="top" data-aos="fade-right">
           <h2>
             <span>Prático, fácil, moderno</span> Você resolve tudo sem estresse
             😊
@@ -253,7 +256,7 @@
           <div class="swiper-pagination"></div>
         </div>
         <!-- SWIPER -->
-        <div class="slider-testimonials">
+        <div class="slider-testimonials" data-aos="fade-up">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="card-testimonial">
@@ -311,7 +314,7 @@
     <!-- SECTION DIGITAL ACCOUNT -->
     <section class="s-digital-account">
       <div class="container">
-        <div class="text">
+        <div class="text" data-aos="fade-right">
           <h2>
             <span>Aproveite</span> Domine o seu dinheiro com uma conta 100%
             digital
@@ -351,9 +354,9 @@
           <button class="btn-primary">Abra sua conta digital</button>
         </div>
         <div class="image">
-          <img src="img/mockup-01.svg" alt="" class="mockup-01" />
-          <img src="img/mockup-02.svg" alt="" class="mockup-02" />
-          <img src="img/circle-conta-digital.svg" alt="" class="circle" />
+          <img src="img/mockup-01.svg" alt="" class="mockup-01" data-aos="fade-up" />
+          <img src="img/mockup-02.svg" alt="" class="mockup-02" data-aos="fade-down" />
+          <img src="img/circle-conta-digital.svg" alt="" class="circle" data-aos="zoom-in" />
         </div>
       </div>
     </section>
@@ -505,6 +508,7 @@
 
     <!-- SCRIPTS -->
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- INITIALIZE SWIPER -->
     <script>
@@ -530,6 +534,14 @@
             spaceBetween: 32,
           },
         },
+      });
+    </script>
+
+    <!-- INITIALIZE AOS -->
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
       });
     </script>
   </body>
