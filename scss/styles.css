@@ -47,6 +47,36 @@ body {
   margin: 0 auto;
 }
 
+@-webkit-keyframes floating {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  66% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes floating {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  66% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
 h1 {
   font-weight: 600;
   font-size: 6.4rem;
@@ -703,6 +733,8 @@ footer .message p {
   left: 0;
   z-index: 2;
   max-width: 43.5rem;
+  -webkit-animation: floating 6s infinite;
+          animation: floating 6s infinite;
 }
 
 .s-hero .area-image .image .card-back {
@@ -710,6 +742,8 @@ footer .message p {
   right: 8.6rem;
   z-index: 1;
   max-width: 35.2rem;
+  -webkit-animation: floating 6s infinite 1s;
+          animation: floating 6s infinite 1s;
 }
 
 .s-hero .area-image .image .circle {
