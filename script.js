@@ -9,3 +9,17 @@ function openDropdown(event) {
 
 btnDropdown.addEventListener("click", openDropdown);
 dropdown.addEventListener("mouseleave", openDropdown);
+
+const header = document.getElementById("js-header");
+
+function fixedMenu() {
+  if (window.pageYOffset > 80) {
+    console.log("add class");
+    header.classList.add("fixed-menu");
+  } else {
+    console.log("remove class");
+    header.classList.remove("fixed-menu");
+  }
+}
+
+document.addEventListener("scroll", fixedMenu);

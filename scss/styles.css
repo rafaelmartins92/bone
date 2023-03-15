@@ -227,7 +227,7 @@ h4 {
 }
 
 header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -236,7 +236,9 @@ header {
   display: -ms-flexbox;
   display: flex;
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-  z-index: 5;
+  z-index: 999;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 header .container {
@@ -253,6 +255,44 @@ header .container {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+header.fixed-menu {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 0 30px 0 #c6c5ce;
+          box-shadow: 0 0 30px 0 #c6c5ce;
+}
+
+header.fixed-menu .logo {
+  background-image: url("../../img/logo-neon-color.svg");
+}
+
+header.fixed-menu nav ul li a {
+  color: #5f5c6b;
+}
+
+header.fixed-menu nav ul li a:hover {
+  color: #00a5f0;
+}
+
+header.fixed-menu nav .btn-secondary {
+  color: #00a5f0;
+  border: 1px solid #00a5f0;
+}
+
+header.fixed-menu nav .btn-secondary:hover {
+  background-color: #00a5f0;
+  color: #ffffff;
+}
+
+header .logo {
+  display: inline-block;
+  width: 132px;
+  height: 30px;
+  background: url("../../img/logo.svg") no-repeat center center;
+  background-size: 100%;
+  -webkit-transition: background-image .3s;
+  transition: background-image .3s;
 }
 
 header nav {
@@ -285,8 +325,8 @@ header nav ul li a {
   font-size: 1.6rem;
   line-height: 125%;
   color: #ffffff;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
 }
 
 header nav ul li a:hover {
@@ -302,6 +342,8 @@ header nav ul li .dropdown {
   width: max-content;
   max-width: 373px;
   background-color: #ffffff;
+  -webkit-box-shadow: 0 0 30px 0 #c6c5ce;
+          box-shadow: 0 0 30px 0 #c6c5ce;
   border-radius: 6px;
   padding: 4rem;
   opacity: 0;
