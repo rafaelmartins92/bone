@@ -6,6 +6,7 @@ header {
   height: 8.8rem;
   display: flex;
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  z-index: 5;
 
   .container {
     @include flex(row, center, space-between);
@@ -20,6 +21,8 @@ header {
       margin-right: 5.9rem;
 
       li {
+        position: relative;
+        
         &:not(:first-child) {
           margin-left: 4.8rem;
         }
@@ -35,6 +38,67 @@ header {
 
           &:hover {
             color: $brand-yellow;
+          }
+        }
+
+        .dropdown {
+          position: absolute;
+          top: 50px;
+          left: -130px;
+          width: max-content;
+          max-width: 373px;
+          background-color: $white;
+          border-radius: 6px;
+          padding: 4rem;
+          opacity: 0;
+          pointer-events: none;
+          transform: translateY(20px);
+          transition: all .3s;
+    
+          &.active {
+            opacity: 1;
+            pointer-events: all;  
+            transform: translateY(0);
+          }
+    
+          &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            width: 293px;
+            height: 5px;
+            background: $brand-yellow;
+            border-radius: 12px 12px 0 0;
+          }
+    
+          .item {
+            cursor: pointer;
+            
+            &:not(:last-child) {
+              margin-bottom: 2.8rem;
+            }
+    
+            &:hover {
+              strong {
+                color: $brand-blue;
+              }
+            }
+    
+            strong {
+              font-weight: 600;
+              font-size: 1.6rem;
+              line-height: 1.9rem;
+              color: $gray-400;
+              display: block;
+              margin-bottom: 4px;
+              transition: color .3s;
+            }
+    
+            p {
+              font-size: 1.4rem;
+              line-height: 150%;
+              color: $gray-300;
+            }
           }
         }
       }

@@ -34,7 +34,10 @@
       property="og:description"
       content="A conta digital certa pra cuidar bem do seu dinheiro"
     />
-    <meta property="og:image" content="https://neon-rafaelmartins.netlify.app/share-img.png" />
+    <meta
+      property="og:image"
+      content="https://neon-rafaelmartins.netlify.app/share-img.png"
+    />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +53,10 @@
       property="twitter:description"
       content="A conta digital certa pra cuidar bem do seu dinheiro"
     />
-    <meta property="twitter:image" content="https://neon-rafaelmartins.netlify.app/share-img.png" />
+    <meta
+      property="twitter:image"
+      content="https://neon-rafaelmartins.netlify.app/share-img.png"
+    />
   </head>
   <body>
     <!-- HEADER -->
@@ -61,11 +67,35 @@
         </a>
         <nav>
           <ul>
-            <li><a href="">Produtos Neon</a></li>
-            <li><a href="">Conta digital PJ</a></li>
-            <li><a href="">Quem somos</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Ajuda</a></li>
+            <li>
+              <a href="" class="js-btn-dropdown">Produtos Neon</a>
+              <div class="dropdown js-dropdown">
+                <div class="item">
+                  <strong>Cartão de crédito</strong>
+                  <p>Cartão de crédito sem anuidade</p>
+                </div>
+                <div class="item">
+                  <strong>Cartão pré-pago</strong>
+                  <p>Cartão de débito internacional Neon</p>
+                </div>
+                <div class="item">
+                  <strong>Neon Mais</strong>
+                  <p>4 saques grátis para quem compra com a Neon</p>
+                </div>
+                <div class="item">
+                  <strong>Investimentos</strong>
+                  <p>A evolução da poupança</p>
+                </div>
+                <div class="item">
+                  <strong>Empréstimo pessoal</strong>
+                  <p>Faça uma simulação de empréstimo pessoal</p>
+                </div>
+              </div>
+            </li>
+            <li><a href="" class="js-btn-dropdown">Conta digital PJ</a></li>
+            <li><a href="" class="js-btn-dropdown">Quem somos</a></li>
+            <li><a href="" class="js-btn-dropdown">Blog</a></li>
+            <li><a href="" class="js-btn-dropdown">Ajuda</a></li>
           </ul>
           <button class="btn-secondary white">Abra sua conta digital</button>
 
@@ -557,6 +587,7 @@
     <!-- SCRIPTS -->
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
 
     <!-- INITIALIZE SWIPER -->
     <script>
