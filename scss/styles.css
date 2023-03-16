@@ -228,6 +228,8 @@ h4 {
 
 header {
   position: fixed;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
   top: 0;
   left: 0;
   width: 100%;
