@@ -8,21 +8,19 @@
   <img alt="Made By" src="https://img.shields.io/static/v1?label=Made%20By&message=Rafael%20Martins&color=orange&style=for-the-badge">
 	</a>
   
-  <img alt="Languages" src="https://img.shields.io/github/languages/count/rafaelmartins92/neon?style=for-the-badge">
+  <img alt="Languages" src="https://img.shields.io/github/languages/count/rafaelmartins92/bone?style=for-the-badge">
   
-  <img alt="Top Language" src="https://img.shields.io/github/languages/top/rafaelmartins92/neon?style=for-the-badge">
+  <img alt="Top Language" src="https://img.shields.io/github/languages/top/rafaelmartins92/bone?style=for-the-badge">
   
-  <img alt="Repo Size" src="https://img.shields.io/github/repo-size/rafaelmartins92/neon?style=for-the-badge">
+  <img alt="Repo Size" src="https://img.shields.io/github/repo-size/rafaelmartins92/bone?style=for-the-badge">
   
-  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/rafaelmartins92/neon?style=for-the-badge">
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/rafaelmartins92/bone?style=for-the-badge">
 </p>
 
 <h4 align="center">
-  <p>Code Boost - Redesign Banco Neon</p>
+  <p>Banco B-one</p>
 
-  <p>This was a study project done in Code Boost.</p>
-
-  <p>This project was aimed at improving my skill in HTML and SASS.</p>
+  <p>This was a study project to improve my skill in HTML and SASS.</p>
 </h4>
 
 <p align="center">
@@ -33,7 +31,7 @@
 </p>
 
 <p align="center">
-  <img alt="Scene" src="portfolio-scene---neon@2x.png">
+  <img alt="Scene" src="portfolio-scene---bone@2x.png">
 </p>
 
 ## :rocket: Technologies
@@ -48,7 +46,7 @@ This project was developed with the following technologies:
 
 You can try it here:
 
-- [Rafael Martins | Redesign Banco Neon][demo]
+- [Rafael Martins | Banco B-one][demo]
 
 ## :information_source: How to use
 
@@ -56,10 +54,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com) instal
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/rafaelmartins92/neon.git
+$ git clone https://github.com/rafaelmartins92/bone.git
 
 # Go into the repository
-$ cd neon
+$ cd bone
 
 # Go to index.html
 # Right click on it
@@ -68,7 +66,7 @@ $ cd neon
 
 ## :memo: License
 
-This project is under the MIT license. See the [LICENSE](https://github.com/rafaelmartins92/neon/blob/master/LICENSE) for more information.
+This project is under the MIT license. See the [LICENSE](https://github.com/rafaelmartins92/bone/blob/master/LICENSE) for more information.
 
 ---
 
@@ -79,4 +77,4 @@ This project is under the MIT license. See the [LICENSE](https://github.com/rafa
 [vc]: https://code.visualstudio.com/
 [vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 [vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-[demo]: https://neon-rust.vercel.app/
+[demo]: https://bone-rust.vercel.app/
