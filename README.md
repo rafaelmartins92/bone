@@ -18,9 +18,9 @@
 </p>
 
 <h4 align="center">
-  <p>Banco B-one</p>
+  <p>B-one Bank</p>
 
-  <p>This was a study project to improve my skill in HTML and SASS.</p>
+  <p>This is a study project to improve my skills in HTML, SASS and JavaScript.</p>
 </h4>
 
 <p align="center">
